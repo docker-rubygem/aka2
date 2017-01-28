@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.1.1
+ENV VERSION=0.1.10.pre
 
 RUN gem install aka2 --version ${VERSION} --no-format-exec
 
